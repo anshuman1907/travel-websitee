@@ -92,16 +92,16 @@ export function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-gray-400" />
                 <span className="text-gray-300 text-sm">
-                  123 Travel St, City, Country
+                  Mp-1919 Gyatripuram Barabanki 225001 
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-gray-400" />
-                <span className="text-gray-300 text-sm">+91********1</span>
+                <span className="text-gray-300 text-sm">+918765180699</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-gray-400" />
-                <span className="text-gray-300 text-sm">t********@gmail.com</span>
+                <span className="text-gray-300 text-sm">201937@kit.ac.in</span>
               </li>
             </ul>
           </div>

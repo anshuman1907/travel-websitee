@@ -76,7 +76,7 @@ export default function ContactPage() {
               <Phone className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-1">Call Us</h3>
-            <p className="text-sm text-muted-foreground">+91*********0</p>
+            <p className="text-sm text-muted-foreground">+918765180699</p>
           </div>
 
           <div className="flex flex-col items-center text-center p-4">
@@ -84,7 +84,7 @@ export default function ContactPage() {
               <Mail className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-1">Email Us</h3>
-            <p className="text-sm text-muted-foreground">t******gmail.com</p>
+            <p className="text-sm text-muted-foreground">201937@kit.ac.in</p>
           </div>
 
           <div className="flex flex-col items-center text-center p-4">
@@ -92,7 +92,7 @@ export default function ContactPage() {
               <MapPin className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-1">Our Office</h3>
-            <p className="text-sm text-muted-foreground">123 Travel St, City, Country</p>
+            <p className="text-sm text-muted-foreground">*********</p>
           </div>
         </div>
 
@@ -125,7 +125,7 @@ export default function ContactPage() {
                       <FormItem>
                         <FormLabel>Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="A********n" {...field} />
+                          <Input placeholder="Anshuman Verma" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -139,7 +139,7 @@ export default function ContactPage() {
                      <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="xyz***@gmail.com" type="email" {...field} />
+                          <Input placeholder="201937@kit.ac.in" type="email" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -153,7 +153,7 @@ export default function ContactPage() {
                       <FormItem>
                         <FormLabel>Contact Number</FormLabel>
                         <FormControl>
-                          <Input placeholder="+91*********2" {...field} />
+                          <Input placeholder="+918765180699" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
