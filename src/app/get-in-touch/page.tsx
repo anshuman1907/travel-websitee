@@ -92,7 +92,7 @@ export default function ContactPage() {
               <MapPin className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-1">Our Office</h3>
-            <p className="text-sm text-muted-foreground">*********</p>
+            <p className="text-sm text-muted-foreground">Barabanki UP</p>
           </div>
         </div>
 
