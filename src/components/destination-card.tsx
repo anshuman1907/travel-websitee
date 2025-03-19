@@ -34,6 +34,7 @@ export function DestinationCard({ destination }: DestinationCardProps) {
           src={destination.imageUrl}
           alt={destination.name}
           fill
+          // width={0}
           className="object-cover"
         />
       </div>

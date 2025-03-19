@@ -48,10 +48,12 @@ const DESTINATION_IMAGES: Record<string, string> = {
 
 // Sample trip images for better UI
 const TRIP_IMAGES = [
-  'https://images.unsplash.com/photo-1568321612653-e22322775125',
-  'https://images.unsplash.com/photo-1552250575-e508473b090e',
-  'https://images.unsplash.com/photo-1577093450310-c96bb5ebe4a1',
-  'https://images.unsplash.com/photo-1584289537662-27851fd5ab8b'
+  'https://picsum.photos/800/500?travel',
+  'https://picsum.photos/800/500?egypt',
+  'https://picsum.photos/800/500?bhutan',
+  'https://picsum.photos/800/500?travel',
+  'https://picsum.photos/800/500?travel',  
+
 ];
 
 
@@ -175,7 +177,7 @@ export default function DestinationPage() {
       </div>
 
       {/* Fixed "Talk to an Expert" button */}
-      <div className="sticky bottom-0 w-full bg-white shadow-lg p-4 border-t">
+      <div className="sticky bottom-0 w-full  p-4 border-t">
         <div className="container mx-auto max-w-6xl">
           <Button
             className="w-full md:w-auto md:float-right"
