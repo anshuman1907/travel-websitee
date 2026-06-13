@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
   reactStrictMode: true,
 
   /* config options here */
@@ -10,6 +9,7 @@ const nextConfig = {
     domains: [
       "source.unsplash.com",
       "images.unsplash.com",
+      "res.cloudinary.com",
       "ext.same-assets.com",
       "ugc.same-assets.com",
     ],
@@ -27,6 +27,11 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "ext.same-assets.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
         pathname: "/**",
       },
       {

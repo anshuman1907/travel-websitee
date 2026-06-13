@@ -84,7 +84,7 @@ export default function ContactPage() {
               <Mail className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-1">Email Us</h3>
-            <p className="text-sm text-muted-foreground">201937@kit.ac.in</p>
+            <p className="text-sm text-muted-foreground">anshuman***@gmail.com</p>
           </div>
 
           <div className="flex flex-col items-center text-center p-4">
@@ -136,10 +136,10 @@ export default function ContactPage() {
                     control={form.control}
                     name="email"
                     render={({ field }) => (
-                     <FormItem>
+                      <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="201937@kit.ac.in" type="email" {...field} />
+                          <Input placeholder="anshuman***@gmail.com" type="email" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>

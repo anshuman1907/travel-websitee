@@ -64,7 +64,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/destination/turkey" className="text-gray-300 hover:text-white text-sm">
-                Turkey
+                  Turkey
                 </Link>
               </li>
               <li>
@@ -74,7 +74,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/destination/south-africa" className="text-gray-300 hover:text-white text-sm">
-                South Africa
+                  South Africa
                 </Link>
               </li>
               <li>
@@ -92,7 +92,7 @@ export function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-gray-400" />
                 <span className="text-gray-300 text-sm">
-                  Mp-1919 Gyatripuram Barabanki 225001 
+                  Mp-1919 Gyatripuram Barabanki 225001
                 </span>
               </li>
               <li className="flex items-center">
@@ -101,7 +101,7 @@ export function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-gray-400" />
-                <span className="text-gray-300 text-sm">201937@kit.ac.in</span>
+                <span className="text-gray-300 text-sm">anshuman***@gmail.com</span>
               </li>
             </ul>
           </div>
