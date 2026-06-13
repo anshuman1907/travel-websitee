@@ -57,8 +57,9 @@ const TRIP_IMAGES = [
 
 
 
-export default async function DestinationPage({ params }: { params: { handle: string } }) {
-  const handle = params.handle
+export default async function DestinationPage({ params }: { params?: Promise<{ handle: string }> }) {
+  const resolvedParams = await params
+  const handle = resolvedParams?.handle ?? ''
 
   // Fetch destination data server-side
   let destinationData: DestinationData | null = null
