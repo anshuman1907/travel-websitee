@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/travel-websitee',
   reactStrictMode: true,
 
   /* config options here */
