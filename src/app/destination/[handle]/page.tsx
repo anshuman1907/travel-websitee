@@ -51,8 +51,13 @@ const TRIP_IMAGES = [
 
 ];
 
-
-
+// Static params for static export
+export async function generateStaticParams() {
+  const destinations = ['egypt', 'bhutan', 'turkey', 'kenya', 'south-africa'];
+  return destinations.map((handle) => ({
+    handle,
+  }));
+}
 
 
 
@@ -66,7 +71,7 @@ export default async function DestinationPage({ params }: { params?: Promise<{ h
   let error: string | null = null
 
   try {
-    const res = await fetch(`https://json-data-1wm2.onrender.com/destination/${encodeURIComponent(handle)}`, { cache: 'no-store' })
+    const res = await fetch(`https://json-data-1wm2.onrender.com/destination/${encodeURIComponent(handle)}`, { cache: 'force-cache' })
     const data = await res.json()
 
     const tripsData = data.trips || []
