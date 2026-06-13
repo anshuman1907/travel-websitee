@@ -34,3 +34,21 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Local development
+
+Quick steps to run the project locally:
+
+```bash
+# install deps (use --legacy-peer-deps if you hit peer dependency errors)
+npm install --legacy-peer-deps
+
+# run the dev server
+npm run dev
+
+# open http://localhost:3000 in your browser
+```
+
+Notes:
+- If you want a static export, you must implement `generateStaticParams()` for dynamic routes or re-enable `output: "export"` in `next.config.js` and adjust routes accordingly.
+- If images from Cloudinary don't load, ensure `res.cloudinary.com` is included in `images.domains` in `next.config.js`.
