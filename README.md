@@ -2,7 +2,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Project Screenshot
 
-![travel-websitee](./homepage.png)
+
+![Homepage](homepage.png)
 
 ## Getting Started
 
