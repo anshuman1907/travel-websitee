@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Project Screenshot
 
-![3D Portfolio](./travelhomepage.png)
+![3D Portfolio](./homepage.png)
 
 ## Getting Started
 
