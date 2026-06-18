@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Project Screenshot
 
 
-![Homepage](homepage.png)
+![Homepage](travelhomepage.png)
 
 ## Getting Started
 
